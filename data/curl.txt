@@ -1,0 +1,40 @@
+mistral-small-latest
+
+curl --location "https://api.mistral.ai/v1/chat/completions" \
+     --header 'Content-Type: application/json' \
+     --header 'Accept: application/json' \
+     --header "Authorization: Bearer $MISTRAL_API_KEY" \
+     --data '{
+    "model": "mistral-small-latest",
+    "messages": [{"role": "user", "content": "What is an optimal range for Heart Rate while running when I am doing Easy runs for recovery?"}]
+  }'
+
+What is an optimal range for Heart Rate while running when I am doing Easy runs for recovery?
+Who is the most renowned Marathoner?
+
+  {"id":"2870f5d61a18474cafc57456c31d9ce5",
+  "object":"chat.completion",
+  "created":1718019097,
+  "model":"mistral-small-latest",
+  "choices":[
+    {
+        "index":0,
+        "message":{
+            "role":"assistant",
+            "content":"Determining the \"most renowned\" marathoner can be subjective as it depends on various factors such as personal preferences, nationality, era, and specific achievements. However, one of the most famous marathoners globally is Eliud Kipchoge from Kenya. He is the current world record holder in the marathon, Olympic champion, and the first person to run a marathon in under two hours (although it was not an official world record due to certain conditions). Other notable marathoners include Haile Gebrselassie, Paula Radcliffe, and Abebe Bikila.","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":
+            {
+                "prompt_tokens":13,
+                "total_tokens":141,
+                "completion_tokens":128
+            }
+    }]
+
+
+{"id":"774d2da986814ab79836d2a360298efb","object":
+"chat.completion",
+"created":1718180103,
+"model":"mistral-small-latest",
+"choices":[{"index":0,"message":{"role":"assistant","content":"The optimal heart rate zone for easy runs, which are typically used for recovery, is often referred to as the \"light\" or \"recovery\" zone. This is usually around 60-70% of your maximum heart rate.\n\nTo calculate your maximum heart rate, a common method is to subtract your age from 220. For example, if you're 30 years old, your estimated maximum heart rate would be 190 beats per minute (bpm). Therefore, your light or recovery heart rate zone would be approximately 114-133 bpm.","tool_calls":null},
+"finish_reason":"stop",
+"logprobs":null}],
+"usage":{"prompt_tokens":22,"total_tokens":150,"completion_tokens":128}}

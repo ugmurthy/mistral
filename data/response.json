@@ -1,0 +1,23 @@
+{
+  "id": "2870f5d61a18474cafc57456c31d9ce5",
+  "object": "chat.completion",
+  "created": 1718019097,
+  "model": "mistral-small-latest",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Determining the \"most renowned\" marathoner can be subjective as it depends on various factors such as personal preferences, nationality, era, and specific achievements. However, one of the most famous marathoners globally is Eliud Kipchoge from Kenya. He is the current world record holder in the marathon, Olympic champion, and the first person to run a marathon in under two hours (although it was not an official world record due to certain conditions). Other notable marathoners include Haile Gebrselassie, Paula Radcliffe, and Abebe Bikila.",
+        "tool_calls": null
+      },
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13,
+    "total_tokens": 141,
+    "completion_tokens": 128
+  }
+}

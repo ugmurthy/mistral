@@ -1,0 +1,106 @@
+EXAMPLE - GENERATE 10 questions given Context
+
+Context information is below.
+---------------------
+Strength Training for Runners (Complete Programs and Plans)
+Last Updated on January 27, 2024 by Amanda Brooks
+Home / Cross Training
+Strength training for runners used to be an optional part of the plan. You’d see a cross training day and think ehh maybe I’ll ride my bike or go for a swim. While those are fantastic ways to cross train, they’ll never come close to the benefits a runner gets from working on strength.
+
+Get a better understanding of runner strength plans, from ones to follow to how to create your own.
+
+runner weight lifting program 
+Sprinter Natasha Hastings often shares her strength workouts
+All of our athletes are required to incorporate strength training.
+
+We put it in the plan and we follow up to make sure it’s happening! I’ve found two things really help us stick with a runner strength training plan:
+
+Knowing exactly how it’s going to make us a better runner.
+It needs to be quick, so we can keep getting in our miles.
+Understand where we can use bodyweight and when we benefit from dumbbells.
+I’m the first to admit that if weight training leaves me so sore I can’t get in my miles, I’m unlikely to want to do it again. Running is my primary goal, my strength training needs to enhance the speed, distance or feel of those runs!
+
+Quick Jump
+What is Strength Training for Runners?
+7 Reasons Strength Training is Important for Runners
+When Should A Runner Start Strength Training?
+What Strength Exercises Should Runners Do?
+Should I Run Before or After Lifting?
+Strength Training Plans for Runners
+What is Strength Training for Runners?
+Strength training for runners is just strength training. Period.
+
+There is no special way that women should train or that taller or shorter people should train. What we are usually referring to is a program that helps to focus on the most common areas of weakness for runners.
+
+In addition to that, we’re focused on creating plans that allow the runner to build strength without sacrificing the quality of their runs.
+
+We know that in order to complete a long run or distance race, you need the energy to put in enough miles.
+
+This is why our strength training needs to follow a periodization, just like our running.
+
+Base building – a time where we are lifting more often and heavier
+Race Training  – a time where we are lifting fewer days with more focused intent
+Race Week – a time where we are cutting strength and running volume to improve performance
+Just like running, strength is use it or lose it. So you can’t do a great base period of weight lifting and then stop because you start training for a race.
+
+Now it’s time to start diving in to why strength training for runners is becoming a required piece of training. It’s so much more than how running tones your legs!
+
+“the addition of resistance training to an ongoing endurance exercise regimen, including running or cycling, increases both short and long term endurance capacity in sedentary and trained individuals.
+
+Resistance training also appears to improve lactate threshold in untrained individuals…“
+
+7 Reasons Strength Training is Important for Runners
+Why is strength training important for runners? The benefits really are vast and I admit that even as an experienced running coach it took me seeing a lot of the data to finally get consistent with my own routine about 7 years ago.
+
+We now know that it’s about so much more than light weights high reps. You’re going to need to work up to increasing the weights you can pick up to get maximum gains from your training schedule.
+
+#1 Reduce Muscle Imbalances
+Running is inherently a single leg sport. With each stride we are leaping from one leg to the other, which means that if we have one side that’s weaker it will start to create a lot of issues.
+
+Our running form will deteriorate. We will have less power in our stride and we start to compensate with other muscles, which simple creates a new set of issues.
+
+Luckily, consistent strength training for 6 weeks or more can help reduce muscle imbalances in runners. This was confirmed by a study published in the Journal of Orthopaedic & Sports Physical Therapy which found that a strength training program targeting the hip muscles improved muscle imbalances in female runners in just six weeks.
+
+#2 Reducing Injury Risk
+Our biggest struggle as distance runners is to train consistently. Strength training is a key tool to ensure that happens! 90% of the injuries my Physical Therapist friends see in runners are a result of weak hips, glutes and core.
+
+Weak muscles prevent us from maintaining good form. We start to see a lot of overpronation from hips that can’t hold our knee or ankles in a straight line.
+
+If even a small amount of time strength training will prevent injuries, then it means you can continue to run. And the more you run, the better you’re able to get.
+
+To make sure I fairly show all sides…
+
+A 2020 study showed NO reduction in injuries for a first time marathon training group doing just 10 minutes of bodyweight moves, 3 times per week. What most coaches have taken from this is we need training plans specific to the ability of that runner, we need to add weights and make sure they are actually doing the workouts.
+
+These 10 minute sessions are perfect pre-run workouts, but need supplemental weight lifting sessions.
+
+Strength Training For Runners
+#3 Improve Running Economy
+Would you like to run farther with less effort? Sounds like a winning scenario to me. Strength training for runners will help that to happen.
+
+A 2016 meta-analysis study, showed that 2-3 sessions per week resulted in a reduction of oxygen use of 3-4% at the same intensity (others have shown up to 8%). In other words, the body didn’t need to work as hard to maintain the original level of effort.
+
+It can also improve race performance by 2%-5%, which could mean taking minutes off a half marathon.
+
+We aren’t looking to increase your endurance with weights. Running does that. But we are doing things that will help you maintain better form as you fatigue because the muscles are now stronger and more stable.
+
+#4 Increase Running Speed
+Finally, one of the reasons that will catch most runners eye…speed. There’s a reason that short distance track superstars have such big well defined muscles; they create power and speed.
+
+Distance runners are unlikely to ever develop that kind of muscle.But we can absolutely benefit from the power created in our stride through lifting heavy weights.
+
+Running requires a TON of balance and stability. Constantly shifting weight from one side of the body to the other requires so many muscles to be firing at once.
+
+Running by itself – won’t necessarily recruit those muscles.
+
+Muscles need to be turned on and engaged, otherwise they’re just along for the ride. And I don’t know about you, but I’m not about to let any muscles free load during my runs. That sh*t ain’t easy and I need all the help I can get.
+
+It’s why you’ll often hear people talking about activating their glutes, which are turned off from sitting all day.
+
+Plus, strength training, in general, has been shown to increase running economy (the amount of oxygen your body needs at a certain velocity) through enhancing neuromuscular coordination and power. As a result, your body can stride more efficiently and use less energy to move.
+
+---------------------
+Given the context information and not prior knowledge. Generate 10
+questions based on the context. The questions should be diverse in nature across the
+document. Restrict the questions to the context information provided.
+
