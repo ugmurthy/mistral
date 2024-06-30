@@ -11,3 +11,5 @@ node_modules
 .env
 /prisma/dev.db
 /dist
+/notes
+/data

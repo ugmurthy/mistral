@@ -29,8 +29,6 @@ function qa2msg(qa) {
         ]
     ]
 */
-// Convert Q/A categorised to messages/role/content format as indicated in
-// https://docs.mistral.ai/capabilities/finetuning/
 function category_qa2msg(cqa) {
     let ret_val=[]
     
@@ -41,6 +39,7 @@ function category_qa2msg(cqa) {
         console.log("Processing... ",k, "total q/a  = ",msg.length)
         ret_val.push(msg)
     }
-    return {"messages":ret_val.flat()}
+    //return {"messages":ret_val.flat()}
+    return ret_val.flat();
 }
 
