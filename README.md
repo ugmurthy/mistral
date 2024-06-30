@@ -26,7 +26,7 @@ an finally expose the `fine tuned` model via a front web app called `MyCoach`
 
 ## 2.0 Data Set Preparation
 
-![DataSet Preparation](https://excalidraw.com/#json=vT_9RLuwyyLq7zHkBOd9j,xAhuv1EY7Y0j4VjVuKi4xw) {a brief description about this data set preparation}
+![DataSet Preparation](/img/FineTuning.png) {a brief description about this data set preparation}
 
 Data Set preparation was the most challenging phase of the project as it took lots of time and effort to gather data for fine tuning.
 
