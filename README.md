@@ -10,7 +10,7 @@ This dataset was then used to fine-tune an `open-mistral-7b` model, ensuring it 
 
 With MyCoach, runners can receive expert advice, motivational support, and tailored strategies to improve their performance and enjoy their running journey.
 
-[![MyCoach](https://img.youtube.com/vi/2xqy7wj1exI/0.jpg)](https://www.youtube.com/watch?v=2xqy7wj1exI)
+[![MyCoach](https://img.youtube.com/vi/2xqyJB3lNsN5Hws.jpg)](https://www.youtube.com/watch?v=JB3lNsN5Hws)
 
 [MyCoach Code Repo](https://github.com/ugmurthy/mistral-ft)
 
