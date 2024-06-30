@@ -10,7 +10,7 @@ This dataset was then used to fine-tune an `open-mistral-7b` model, ensuring it 
 
 With MyCoach, runners can receive expert advice, motivational support, and tailored strategies to improve their performance and enjoy their running journey.
 
-[![MyCoach](https://img.youtube.com/vi/2xqyJB3lNsN5Hws.jpg)](https://www.youtube.com/watch?v=JB3lNsN5Hws)
+[![MyCoach - A 2 minute video](https://img.youtube.com/vi/2xqyJB3lNsN5Hws.jpg)](https://www.youtube.com/watch?v=JB3lNsN5Hws)
 
 [MyCoach-The front end to finetuned model has it's code Repo here](https://github.com/ugmurthy/mistral-ft)
 
@@ -25,8 +25,6 @@ To Create a `fine tuned` model from [mistal.ai](https://mistral.ai/)'s `open-mis
 an finally expose the `fine tuned` model via a front web app called `MyCoach`
 
 ## 2.0 Data Set Preparation
-
-![DataSet Preparation](/img/FineTuning.png) {a brief description about this data set preparation}
 
 Data Set preparation was the most challenging phase of the project as it took lots of time and effort to gather data for fine tuning.
 
