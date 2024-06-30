@@ -2,7 +2,7 @@
 
 ## Project `MyCoach`:
 
-`MyCoach` is an innovative Marathon Coaching application designed to offer comprehensive support to runners. The app provides guidance on nutrition, strength and mental training, the musculoskeletal system, motivational strategies, and racing tactics. `MyCoach` aims to enhance running performance and help users achieve their goals, whether they are beginners or experienced runners.
+`MyCoach` is a Marathon Coaching application designed to offer support to runners. The app provides guidance on nutrition, strength and mental training, the musculoskeletal system, motivational strategies, and racing tactics. `MyCoach` aims to enhance running performance and help users achieve their goals, whether they are beginners or experienced runners.
 
 The development of `MyCoach` began as a project for the [Mistral.ai](https://mistral.ai/) Hackathon. Leveraging the **Fine Tuning API**, the project utilised both synthetic and crowd-sourced questions. These questions were answered by leading large language models (LLMs) including ChatGPT-4o, Mistral Large, Gemini Advanced, Llama3-70b, and some smaller models. The responses from these LLMs were compiled to create a robust dataset.
 
