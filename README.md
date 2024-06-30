@@ -1,6 +1,6 @@
 # Mistral FineTuning Hackathon - Jun 2024
 
-## 0.0 Project `MyCoach`:
+## Project `MyCoach`:
 
 `MyCoach` is an innovative Marathon Coaching application designed to offer comprehensive support to runners. The app provides guidance on nutrition, strength and mental training, the musculoskeletal system, motivational strategies, and racing tactics. `MyCoach` aims to enhance running performance and help users achieve their goals, whether they are beginners or experienced runners.
 
@@ -9,6 +9,10 @@ The development of `MyCoach` began as a project for the [Mistral.ai](https://mis
 This dataset was then used to fine-tune an `open-mistral-7b` model, ensuring it was capable of providing expert advice on marathon coaching. The refined model was integrated into `MyCoach`, the front-end web app, to offer users easy access to personalised running guidance.
 
 With MyCoach, runners can receive expert advice, motivational support, and tailored strategies to improve their performance and enjoy their running journey.
+
+[![MyCoach](https://img.youtube.com/vi/vQ6d4GGbrWE/0.jpg)](https://www.youtube.com/watch?v=vQ6d4GGbrWE)
+
+[MyCoach Code Repo](https://github.com/ugmurthy/mistral-ft)
 
 ## 1.0 Project Objectives:
 
@@ -22,7 +26,7 @@ an finally expose the `fine tuned` model via a front web app called `MyCoach`
 
 ## 2.0 Data Set Preparation
 
-![DataSet Preparation](/img/FineTuining.png) {a brief description about this data set preparation}
+![DataSet Preparation](https://excalidraw.com/#json=vT_9RLuwyyLq7zHkBOd9j,xAhuv1EY7Y0j4VjVuKi4xw) {a brief description about this data set preparation}
 
 Data Set preparation was the most challenging phase of the project as it took lots of time and effort to gather data for fine tuning.
 
