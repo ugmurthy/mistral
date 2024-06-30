@@ -12,7 +12,7 @@ With MyCoach, runners can receive expert advice, motivational support, and tailo
 
 [![MyCoach](https://img.youtube.com/vi/2xqyJB3lNsN5Hws.jpg)](https://www.youtube.com/watch?v=JB3lNsN5Hws)
 
-[MyCoach Code Repo](https://github.com/ugmurthy/mistral-ft)
+[MyCoach-The front end to finetuned model has it's code Repo here](https://github.com/ugmurthy/mistral-ft)
 
 ## 1.0 Project Objectives:
 
@@ -34,6 +34,10 @@ The overall 250+ plus questions were gathered covering various aspects relating 
 
 LLMs were used to generate answers finally ending in 800 plus question/answers.
 
+The 800 plus question/answers were split into Training and Validation sets at an individual file level giving a stratified slit. The Validation data was chosen randomly.
+
+Various tools used to prepare data and finetune the model.
+
 More details follow....
 
 ## 2.1 Question Generation
@@ -44,7 +48,13 @@ This was critical part of the data set preparation phase as good questions were 
 2. I used GeminiAdvanced Chat interface to generate another set of questions about Marathoning
 3. The last set of questions was crowdsourced a [google form](https://tinyurl.com/AI-Running-Coach) was send to the running community that I am part of.
 
-##### 2.2 Answer Generation
+### Tools,Scripts used
+
+1. Convert PDF to text : `pdf2text.cjs`
+2. Chat `GPT4o` and `GeminiAdvanced` - chat bots
+3. Google Forms
+
+## 2.2 Answer Generation
 
 Again two methods were employed to get answers to question generated. The Basic idea was to ask larger/more advanced models the question and seek answer.
 
@@ -53,7 +63,13 @@ Again two methods were employed to get answers to question generated. The Basic 
 3. Using llama API to get `chat/completions` from `llama3-70b`
 4. Using ollama API to get `chat/completions` from `llama3-7b` and `mistral-7b`
 
-##### 2.3 Combine to get `.jsonl` files
+### Scripts used
+
+1. `mistral.js` for seeking answers from two Mistral models
+2. `llama.js` for seeking answers from two llama3 models
+3. `ollama.js` for seeking answers from local llama3 and mistral models
+
+## 2.3 Combine to get `.jsonl` files
 
 The Q/As generated in 2.1 and 2.2 were converted to `.jsonl` files.
 
@@ -62,11 +78,19 @@ for example here are few lines representing a `.jsonl` format
 [{"role":"user","content":"What is 2+2=?"},{"role":"assistant","content":"2+2=4"}]
 [{"role":"user","content":"What is 2+2=?"},{"role":"assistant","content":"2+2=4"}]`
 
-##### 2.4 Split to Training and Validation Sets
+### Scripts used
+
+1. `json2lines.cjs` converts various `json` formats to `.jsonl` file.
+
+## 2.4 Split to Training and Validation Sets
 
 Approximately 5% of the DataSet was set aside as Validation Data set. The 5% percent was chosen randomly from each of the Q/As datasets that were created using various techniques.
 
-#### 3.0 Fine Tuning
+### Scripts used
+
+1. `split.js` to split n files given a percent split into Training and Validation files.
+
+## 3.0 Fine Tuning
 
 Fine tuning involed the following steps
 
@@ -74,9 +98,12 @@ Fine tuning involed the following steps
 2. Do Dry runs to ascertain if we are okay to proceed with fine tuning - most corrections were relating to validation dataset being too large
 3. Do fine tuning of `open-mistral-7B`
 
-Note: [`hitpie`](https://httpie.io/) desktop was used for All steps in Fine Tuning.
+### Tools/Script used
 
-#### 4.0 Testing
+1. [`hitpie`](https://httpie.io/) desktop was used for All steps in Fine Tuning.
+2. `uploadFile.sh` a bash script to upload data files to **Mistral Plateforme**
+
+## 4.0 Testing
 
 As the project objective was to see if the Fine Tuned model performed better than `open-mistral-7B`
 the following steps were carried out
@@ -85,7 +112,9 @@ the following steps were carried out
 2. Responses sought from both the fine tuned model and `open-mistral-7b`
 3. The Question/Answers from each of these test were given to Chat GPT/4 to carry out a evaluation
 
-##### Chat GPT/4 Evaluation
+### Chat GPT/4 Evaluation
+
+    NOTE: *This isn't well thought off but a start and an experiment to see if there is merit in use some function calling to do this via an API*
 
 `FineTuned Model` Composite Score : 4.43
 `open-mistral-7B` : Composite Score: 4.14
