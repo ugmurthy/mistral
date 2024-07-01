@@ -14,6 +14,15 @@ With MyCoach, runners can receive expert advice, motivational support, and tailo
 
 [MyCoach-The front end to finetuned model has it's code Repo here](https://github.com/ugmurthy/mistral-ft)
 
+### MyCoach App
+
+Try out the App here:
+The latest version with `quantitative` evaluation of model - could fail at times
+[MyCoach App V0.09](https://mistral-ft.vercel.app/)
+
+A stable App version with `qualitative` evaluation of model is avaialble here:
+[MyCoach App V0.08](https://mistral-khh4cnfbh-murthy-udupas-projects.vercel.app/)
+
 ## 1.0 Project Objectives:
 
 To Create a `fine tuned` model from [mistal.ai](https://mistral.ai/)'s `open-mistral-7b` to represent a Expert Marathon Coach and verify if the `fine tuned` model performs better than `open-mistral-7b` more specifically the `fine tuned` model should:
@@ -110,7 +119,81 @@ the following steps were carried out
 2. Responses sought from both the fine tuned model and `open-mistral-7b`
 3. The Question/Answers from each of these test were given to Chat GPT/4 to carry out a evaluation
 
-### Chat GPT/4 Evaluation
+### MyCoach Evaluate feature
+
+Clicking on `Evaluate check-box` in `MyCoach` does the following:
+
+1. uses the `answers` from fine `tuned mode` with `open-mistral-7b` (base model)
+2. packs the `question` and the `answers` in a json
+3. prefix's it with text that request comparison based on some parameters.
+4. asks `mistral-large` to evaluate (see below for prompt to `mistral-large`)
+
+Sample Prompt
+
+```
+The following json object has 3 keys:
+'question' ,'answer01', 'answer02'
+
+Your Task:
+Compare the answers in the json object
+and give score  on a scale of 1 to 10 for each of the following parameter
+
+Relevance:  answers are relevant and address the 'question' .
+Completeness:  answers cover the main benefits, but one of the answer  provides a bit more detail on challenges.
+Clarity:  answers are clear and well-written.
+Coherence: answers are logically structured.
+Originality: answers provide unique points but are fairly similar in content.
+Consiseness: answers cover the main points in the shortest number of words: use word count as a indicator
+Rejection: answers indicate a inability to provide an answer example: I am not an exper...
+
+Output Format:
+The Output will be a JSON object indicating the scores for each answer
+Also provide an aggregate score equally weight by all parameter
+```
+
+Sample Output1 (Sometime its very brief)
+
+```
+{
+  "score": {
+    "aggregate_scores": {
+      "answer01": 7.7,
+      "answer02": 7.6
+    }
+  }
+}
+```
+
+and if you are luck `mistral-large` sometimes response as below
+
+```
+{
+  "score": {
+    "FineTunedModel": {
+      "Relevance": 10,
+      "Completeness": 9,
+      "Clarity": 10,
+      "Coherence": 10,
+      "Originality": 6,
+      "Consiseness": 7,
+      "Rejection": 0,
+      "Aggregate Score": 8.6
+    },
+    "BaseModel": {
+      "Relevance": 10,
+      "Completeness": 8,
+      "Clarity": 10,
+      "Coherence": 10,
+      "Originality": 6,
+      "Consiseness": 8,
+      "Rejection": 0,
+      "Aggregate Score": 8.4
+    }
+  }
+}
+```
+
+### Chat GPT/4 Evaluation (manually done)
 
     NOTE: *This isn't well thought off but a start and an experiment to see if there is merit in use some function calling to do this via an API*
 
